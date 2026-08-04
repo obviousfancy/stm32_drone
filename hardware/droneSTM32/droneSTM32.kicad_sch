@@ -1,0 +1,215 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "f7a2b988-e602-49a9-b6e7-4b55d74b8716")
+	(paper "A4")
+	(title_block
+		(title "Drone STM32/ATMEGA328P")
+		(date "2026-05-25")
+		(rev "v0.0.1")
+		(company "obviousfancy")
+	)
+	(lib_symbols)
+	(sheet
+		(at 193.04 88.9)
+		(size 25.4 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "8745ee18-878a-4ddb-a065-3c37ea7b5970")
+		(property "Sheetname" "PERIPHERALS"
+			(at 193.04 88.1884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "peripherals.kicad_sch"
+			(at 193.04 116.1546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "droneSTM32"
+				(path "/f7a2b988-e602-49a9-b6e7-4b55d74b8716"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 116.84 88.9)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ae36e15c-bea3-4804-a6fc-1516f9dd8800")
+		(property "Sheetname" "ATMEGA_MCU"
+			(at 116.84 88.1884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "atmega_mcu.kicad_sch"
+			(at 116.84 114.8846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 116.84 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "droneSTM32"
+				(path "/f7a2b988-e602-49a9-b6e7-4b55d74b8716"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 154.94 88.9)
+		(size 25.4 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f156f1ac-3ff4-407a-9ed3-50158338c76e")
+		(property "Sheetname" "POWER"
+			(at 154.94 88.1884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 154.94 116.1546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "droneSTM32"
+				(path "/f7a2b988-e602-49a9-b6e7-4b55d74b8716"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 78.74 88.9)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f7fac57d-48c8-41d0-85f9-1eefb47b5f72")
+		(property "Sheetname" "STM32_MCU"
+			(at 78.74 88.1884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "stm32_mcu.kicad_sch"
+			(at 78.74 114.8846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "droneSTM32"
+				(path "/f7a2b988-e602-49a9-b6e7-4b55d74b8716"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,14 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "afbf1893-c471-4283-bf6d-fde04c26b837")
+	(paper "A4")
+	(title_block
+		(title "Drone STM32/ATMEGA328P")
+		(date "2026-05-25")
+		(rev "v0.0.1")
+		(company "obviousfancy")
+	)
+	(lib_symbols)
+)
