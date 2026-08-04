@@ -21,6 +21,7 @@
 
 # Archivos temporales de Diseño Electrónico (KiCad/Altium)
 *-backups/
+.history/
 *.kicad_pcb-bak
 *.sch-bak
 *.lck
@@ -29,3 +30,6 @@
 # Archivos del Sistema
 .DS_Store
 Thumbs.db
+
+# Logs accidentales con paths de Windows como nombre de archivo
+*kleplace.log
