@@ -6348,6 +6348,30 @@
 			)
 		)
 	)
+	(global_label "I2C2_SDA"
+		(shape input)
+		(at 172.72 128.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c3d79c82-fb8d-45f1-8611-0373969e04ba")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 184.5347 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "OSC32_OUT"
 		(shape input)
 		(at 137.16 115.57 180)
@@ -6417,6 +6441,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "I2C2_SCL"
+		(shape input)
+		(at 172.72 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dffd490e-7a96-4718-9825-1922fa4e6997")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 184.4742 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
